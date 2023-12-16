@@ -25,7 +25,7 @@ DATA DESCRIPTION
 Data Source:
 Dataset Link: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
 
-The dataset is sourced from the UCI Machine Learning Repository and contains 30,000 records and 25 instances. It comprises various features such as credit limit, gender, education, marital status, age, past payment history, bill statements, and previous payment amounts. 
+The dataset is sourced from the UCI Machine Learning Repository and contains 30,000 records and 25 features. It comprises various features such as credit limit, gender, education, marital status, age, past payment history, bill statements, and previous payment amounts. 
 
 This diverse dataset will be leveraged to understand the relationship between client attributes and default behavior. Given the absence of missing values, the dataset offers a suitable foundation for analysis. 
 
