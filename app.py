@@ -70,7 +70,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 ASSETS = Path("assets")
-PDF_PATH = Path("ML_Credit_Card_Clients_Delinquency_Prediction_Report.pdf")
+PDF_PATH = Path("Report.pdf")
 
 # ── Hero ──────────────────────────────────────────────────────────────────────
 st.markdown("""
