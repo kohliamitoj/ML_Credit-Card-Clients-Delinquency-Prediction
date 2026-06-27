@@ -199,8 +199,6 @@ st.markdown("""
   <p>Binary classification of credit card payment default using four machine learning
      models implemented from scratch on 30,000 client records.</p>
   <div class="tag-row">
-    <span class="tag">CS 7300 · Machine Learning</span>
-    <span class="tag">Northeastern University</span>
     <span class="tag">UCI Dataset</span>
     <span class="tag">Binary Classification</span>
   </div>
@@ -501,6 +499,6 @@ with tab5:
 # ── Footer ───────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="footer">
-  Amitoj Singh Kohli &nbsp;·&nbsp; CS 7300 Machine Learning &nbsp;·&nbsp; Northeastern University &nbsp;·&nbsp; 2026
+  Amitoj Singh Kohli
 </div>
 """, unsafe_allow_html=True)
