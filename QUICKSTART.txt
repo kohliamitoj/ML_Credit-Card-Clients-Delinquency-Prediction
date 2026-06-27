@@ -1,0 +1,58 @@
+QUICK START — Credit Card Delinquency Prediction
+=================================================
+
+REQUIREMENTS
+------------
+- Python 3.11 (required; TensorFlow does not support 3.12+)
+- VS Code with extensions: Python (Microsoft), Jupyter (Microsoft)
+
+
+SETUP
+-----
+1. Open a terminal in this project folder.
+
+2. Create and activate a virtual environment:
+   python3.11 -m venv .venv
+   source .venv/bin/activate          # Mac/Linux
+   .venv\Scripts\activate             # Windows
+
+3. Install dependencies:
+   pip install pandas numpy scipy seaborn matplotlib tqdm tabulate \
+               openpyxl xlrd memory-profiler ipykernel tensorflow scikit-learn
+
+4. Register the venv as a Jupyter kernel:
+   python -m ipykernel install --user --name=".venv" --display-name "Python (.venv)"
+
+5. In VS Code:
+   Cmd+Shift+P  →  Python: Select Interpreter  →  select .venv
+
+
+RUNNING THE NOTEBOOK
+--------------------
+1. Open ML_Credit_Card_Clients_Delinquency_Prediction.ipynb in VS Code.
+2. Click the kernel picker (top right)
+      → Select Another Kernel → Jupyter Kernel → Python (.venv)
+   If .venv is not listed: Cmd+Shift+P → Developer: Reload Window, then retry.
+3. Click "Run All"  or step through cells with Shift+Enter.
+
+The dataset file must be in the same folder as the notebook:
+  default of credit card clients 00.58.05.xls
+
+
+cd "/Users/amitojsinghkohli/Documents/Northeastern University/Semester-3/7300_Machine Learning/Project/Final"
+.venv/bin/jupyter lab
+
+
+MODELS TRAINED (in order)
+--------------------------
+1. Logistic Regression      — gradient descent from scratch
+2. Hard-Margin SVM          — perceptron-style updates from scratch
+3. Gaussian Naive Bayes     — from scratch with Laplace smoothing
+4. Neural Network (MLP)     — TensorFlow/Keras, Dense(32,relu)+Dense(1,sigmoid)
+
+
+OUTPUT
+------
+Each model prints: Precision, Recall, Accuracy, Specificity, F1-Score,
+Bias, Variance, Noise, Expected Loss, runtime, and memory usage.
+A final comparison table is printed at the end of the notebook.
